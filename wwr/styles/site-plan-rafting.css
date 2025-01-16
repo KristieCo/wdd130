@@ -4,7 +4,7 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
+  /* change the values below to your colors from your palette checking changes*/
   --primary-color: #2A4494   ;
   --secondary-color: #224870 ;
   --accent1-color: #DB2B39;
