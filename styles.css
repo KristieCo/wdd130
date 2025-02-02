@@ -1,13 +1,51 @@
 body {
-    background-color: aqua;
+    background-color: #669BBC;
+}
+#content {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-a{
+nav, footer {
+    background-color: #003049;
+    text-align: center;
+    
+}
+
+nav a{
     padding: 15px;
     color: black;
     font-size: 20px;
+    text-decoration: none;
+    color: #FDF0D5;
+    margin: 15px;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+h1, p {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 15px;
+}
+h1 {
+    text-align: center;
+    
 }
 
 img{
     width: 200px;
+    display: block;
+    margin: 0 auto;
 }
+p{
+    padding: 0 auto;
+}
+footer a, footer p {
+    color: #FDF0D5;
+}
+
