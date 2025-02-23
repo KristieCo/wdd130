@@ -1,0 +1,24 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    grid-column: 1/3;
+    width: 80%;
+    text-align: center;
+}
+
+h2 {
+    width: 80%;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+img {
+    grid-column: 1/2;
+    text-align: center;
+}

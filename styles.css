@@ -11,6 +11,7 @@ body {
 nav, footer {
     background-color: #003049;
     text-align: center;
+    display: flex;
     
 }
 
@@ -47,6 +48,13 @@ img{
     padding: 50px;
     box-sizing: border-box;
     border-radius: 15px;
+    transition: 1s;
+    box-shadow: 5px 5px 10px grey;
+}
+
+img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 p{
     background-color: #FDF0D5;
