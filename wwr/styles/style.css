@@ -15,6 +15,7 @@ header {
 nav {
     display: flex;
     justify-content: space-evenly;
+    font-weight: bold;
 }
 
 #logo_link {
@@ -23,7 +24,7 @@ nav {
     align-self: center;
 }
 
-.home-title {
+.home-title, .river-title {
     font-family: Merriweather, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
@@ -199,7 +200,7 @@ footer p a:hover {
 }
 
 .logo {
-    width: 80px;
+    width: 120px;
     padding: 15px;
 }
 
@@ -224,6 +225,32 @@ h2 {
     box-sizing: border-box;
     border: 10px solid black;
 }
+
+/* Rivers Style */
+
+#river-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    margin: 30px;
+}
+
+#river-page img {
+    width: 100%;
+    align-self: center;
+}
+#river-page h2 {
+    max-width: 700px;
+    justify-self: center;
+    padding-bottom: 50px;
+}
+
+.para1, .para2, .para3 {
+    width: 100%;
+    text-align: left;
+}
+
+    
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
