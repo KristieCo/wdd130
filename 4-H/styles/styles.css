@@ -1,7 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #708D81;
+    background-color: #cfe1b9;
     
 }
 header {
@@ -13,7 +13,7 @@ header {
     grid-template-columns: 1fr 4fr;
     align-items: center;
     justify-items: center;
-    background-color: #708D81;
+    background-color: #cfe1b9;
     border-top: 10px;
     border-bottom: 10px;
 
