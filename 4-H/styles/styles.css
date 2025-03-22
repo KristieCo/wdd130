@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #cfe1b9;
+    font-family: Lilita, Ariel, sans-serif;;
     
 }
 header {
@@ -70,9 +74,11 @@ nav a {
 }
 h1 {
     padding: 20px;
+    font-family: Phudu, Ariel, sans-serif;;
 }
 h2 {
     padding: 20px;
+    font-family: Phudu, Ariel, sans-serif;
 }
 p {
     font-size: x-large;
