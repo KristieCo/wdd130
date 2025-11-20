@@ -5,23 +5,19 @@
     padding-bottom: 20px;
     text-align: center;
 }
-ol li { 
-    text-align: left;
-	width: 400px; 
-	margin-left: auto; 
-    margin-right: auto;	
-    font-weight: bold;
-}
-p{
+
+p {
     max-width: 400px;
     text-align: center;
     display: block;
     margin: 0 auto;
 }
-p .education, h3{
+p .education,
+h3 {
     color: white;
 }
-h1, h2{
+h1,
+h2 {
     display: block;
     margin: 0 auto;
     color: white;
@@ -29,7 +25,7 @@ h1, h2{
     width: 300px;
     padding: 20px;
 }
-h3{
+h3 {
     font-size: 1.25em;
 }
 
@@ -40,4 +36,3 @@ h1:hover {
 img {
     max-width: 300px;
 }
-
